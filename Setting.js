@@ -3,7 +3,7 @@ const path = require('path')
 
 class Setting {
   constructor() {
-    this.path = path.join('workbench', 'global', 'json', 'setting.json')
+    this.path = path.join('workbench', 'global', 'json', 'setting.json') // url to the json-file from the parent folder
   }
 
   change(option) {
